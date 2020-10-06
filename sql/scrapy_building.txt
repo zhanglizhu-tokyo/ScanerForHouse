@@ -1,0 +1,1 @@
+CREATE TABLE `suumo`.`scrapy_building` ( `id` INT NOT NULL COMMENT 'Œš•¨ID' , `name` VARCHAR(50) NOT NULL COMMENT 'Œš•¨–¼' , `address` VARCHAR(50) NOT NULL COMMENT 'êŠ' , `built_year` VARCHAR(50) NOT NULL COMMENT 'Œš•¨”N”' , `total_floor` VARCHAR(50) NOT NULL COMMENT 'Œš•¨ŠK' , PRIMARY KEY (`id`), UNIQUE (`name`)) ENGINE = InnoDB;
